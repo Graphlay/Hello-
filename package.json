@@ -1,0 +1,24 @@
+{
+  "name": "ai-video-workspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Graphlay/Hello-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Graphlay/Hello-/issues"
+  },
+  "homepage": "https://github.com/Graphlay/Hello-#readme",
+  "private": "true",
+  "devDependencies": {
+    "hyperframes": "^0.9.56"
+  }
+}

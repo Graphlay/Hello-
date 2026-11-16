@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# yt-dlp from the workspace venv, with Node.js enabled as its JavaScript runtime (needed for YouTube).
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
+exec "$ROOT/.venv/bin/yt-dlp" --js-runtimes node "$@"

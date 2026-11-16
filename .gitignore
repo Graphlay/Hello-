@@ -15,3 +15,9 @@
 *.prproj
 *.drp
 .DS_Store
+
+# Tooling
+.venv/
+node_modules/
+.whisper-models/
+*.log

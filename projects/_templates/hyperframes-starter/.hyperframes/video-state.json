@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "historyId": "80bed51a-9a0c-4c02-96a8-eebce24064bf",
+  "currentRevision": null,
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "/root/.cache/hyperframes/history/80bed51a-9a0c-4c02-96a8-eebce24064bf/blobs/26/268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "CLAUDE.md": {
+      "hash": "268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a",
+      "content": "/root/.cache/hyperframes/history/80bed51a-9a0c-4c02-96a8-eebce24064bf/blobs/26/268ff46777938da818baa92a718571785e9acf2cef2d3ffbacbb93483dcba37a"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/root/.cache/hyperframes/history/80bed51a-9a0c-4c02-96a8-eebce24064bf/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "bc7ff2e743d8c95e30ff5c0cc87ad41e44151942473924011cdad94a9a5e35fe",
+      "content": "/root/.cache/hyperframes/history/80bed51a-9a0c-4c02-96a8-eebce24064bf/blobs/bc/bc7ff2e743d8c95e30ff5c0cc87ad41e44151942473924011cdad94a9a5e35fe"
+    },
+    "meta.json": {
+      "hash": "acc83eea51d8535e14438e88c579afc77b6b00bfa5c0d4137698013a28312cf3",
+      "content": "/root/.cache/hyperframes/history/80bed51a-9a0c-4c02-96a8-eebce24064bf/blobs/ac/acc83eea51d8535e14438e88c579afc77b6b00bfa5c0d4137698013a28312cf3"
+    },
+    "package.json": {
+      "hash": "1b131ab9e941e19ac2a71b486eba42e580cf16324cfd5881f3188f21e764bcbd",
+      "content": "/root/.cache/hyperframes/history/80bed51a-9a0c-4c02-96a8-eebce24064bf/blobs/1b/1b131ab9e941e19ac2a71b486eba42e580cf16324cfd5881f3188f21e764bcbd"
+    }
+  },
+  "revisions": {},
+  "checks": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "16ef47b7-dde3-4b7f-9a91-ff78c647b2f8",
+      "completedAt": 1794820933705,
+      "output": "/tmp/tmp.EpsVKe5Ikm/h.mp4",
+      "status": "completed",
+      "revision": null
+    },
+    "retainedRevisions": []
+  },
+  "pendingArtifactCleanup": []
+}

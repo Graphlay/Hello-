@@ -18,6 +18,20 @@ This repo is my video editing workspace. Read this first in every session so you
 | `projects/`      | One folder per video: `brief.md`, `edit-notes.md`, `working/`, `captions/` | All work-in-progress goes here. |
 | `exports/`       | Final renders only                                               | Never overwrite — bump the version. |
 
+## Tools
+
+First-time setup (or a fresh machine/container): `bash tools/setup.sh`. Health check: `bash tools/check.sh`.
+Before using the tools in a shell: `source tools/env.sh` (puts the venv and node tools on PATH).
+
+| Tool | How to use it here |
+|------|--------------------|
+| **FFmpeg** | System install. Cutting, concatenating, audio mixing/ducking, loudness (`loudnorm`), burning captions, encoding. |
+| **yt-dlp** | `yt-dlp <url>` (wrapper in `tools/bin/` enables Node as the JS runtime for YouTube). Save downloads to `references/` or `inspirations/`, never `raw-videos/` unless I say it's my footage. |
+| **Whisper** | `whisper <file> --model small --model_dir "$WHISPER_MODEL_DIR" --output_format srt --output_dir projects/<p>/captions`. Use `--language hi` for Hindi; `medium`/`large` for best accuracy. |
+| **Remotion** | React-based motion graphics. Copy `projects/_templates/remotion-starter/` into the project, edit `src/`, render with `npx remotion render <CompositionId> out.mp4`. |
+| **Hyperframes** | HTML + GSAP compositions. Copy `projects/_templates/hyperframes-starter/`, edit `index.html`, render with `npx hyperframes render -o out.mp4`. Good for captions, titles, overlays. |
+| **SFX & music** | `python3 tools/sfx.py search "whoosh"` (Openverse, no key) · `--music` for tracks · `--source freesound` (needs `FREESOUND_API_KEY`) · `python3 tools/sfx.py download <id>` saves to `assets/sfx` or `assets/music` and logs the licence in `licenses.md`. Prefer CC0; credit CC BY tracks in the post caption. |
+
 ## Workflow
 
 1. **Start a project:** create `projects/YYYY-MM-DD_project-name/` with a `brief.md` (goal, platform, target length, brand, deadline).
