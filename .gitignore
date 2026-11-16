@@ -1,0 +1,17 @@
+# Keep large media out of git (folders + READMEs are still tracked)
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.mxf
+*.m4v
+*.webm
+*.wav
+*.mp3
+*.aac
+*.m4a
+*.aiff
+*.flac
+*.prproj
+*.drp
+.DS_Store
